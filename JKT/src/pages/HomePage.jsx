@@ -1,14 +1,14 @@
-import React from "react";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Headline from '../components/Headline';
 
 export default function HomePage() {
   return (
     <div>
-      <Navbar />
-      <h1 className="text-3xl font-bold underline">Home Page</h1>
-      <p className="mt-4 text-lg">
-        Welcome to the home page of our application!
-      </p>
+      <main className="max-w-screen-xl mx-auto px-6 pt-12">
+        <Headline />
+      </main>
     </div>
   );
 }
